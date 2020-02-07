@@ -1,4 +1,8 @@
 1) add favicon.ivo
 2) add nessesery tags (title, description)
 3) change all colors to variable
-4) try to fix secondary-font by variable
+4) fix font weight: lift for #logo
+
+
+(...)
+x-1) upload wszystko na parkitny.eu/projekty/bestshop/ 

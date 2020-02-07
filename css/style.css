@@ -38,10 +38,15 @@ header {
 
 #logo {
     justify-content: flex-start;
-    font-family: var(--secondary-font);
 }
 
-.main {
+#logo>a {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#main {
     box-sizing: border-box;
     /* display: flex;
     flex-direction: column;
@@ -55,8 +60,24 @@ header {
     text-align: center;
     padding-top: 20vh;
     line-height: 4rem;
-
 }
+
+#why_us {
+    /* box-sizing: border-box;
+    /* margin: auto 0; */
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    background-color: red;
+    display: flex;
+    box-sizing: border-box;
+    width: 1352px;
+    min-height: 50vh;
+    padding-top: 20vh;
+    font-family: var(--secondary-font);
+    text-align: center;
+}
+
 
 .top_menu>ul>li {
     display: inline-block;
@@ -77,10 +98,15 @@ header {
 
 h1 {
     font-family: var(--secondary-font);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 .slider_button {
     width: 27rem;
@@ -90,12 +116,9 @@ h1 {
     background-color: var(--eight-color);
     border-radius: 40px;
     border: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
-
-/* .top_menu>ul>li>a:hover {
-    color: var(--black-color);
+.slider_button::first-letter {
     text-transform: uppercase;
-    text-decoration: none;
-} */
+}
