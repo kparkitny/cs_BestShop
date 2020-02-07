@@ -1,3 +1,17 @@
+:root {
+    --primary-color: #07ACE6;
+    --secondary-color: #13253B;
+    --third-color: #A5A5A5;
+    --forth-color: #FB3B64;
+    --five-color: #55DFB4;
+    --seven-color: #F7F7F7;
+    --eight-color: #08A6E4;
+    --white-color: #FFF;
+    --black-color: #000;
+}
+
+/* sample of use:   color: var(--primary-color);    */
+
 body {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
@@ -27,27 +41,35 @@ header {
 }
 
 .main {
+    /* justify-content: center; */
     min-width: 100vw;
     min-height: 90vh;
     background-image: url("../img/background.png");
     background-position: bottom;
     background-repeat: no-repeat;
-
 }
-
 
 .top_menu>ul>li {
     display: inline-block;
-    height: 100%;
     margin-right: 2vw;
-    text-transform: uppercase;
+    border-bottom: 0.1rem solid red;
 }
+
+.top_menu>ul>li>a {
+    /* display: inline-block; */
+    color: var(--black-color);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+/* .top_menu>ul>li>a:hover {
+    color: var(--black-color);
+    text-transform: uppercase;
+    text-decoration: none;
+} */
+
 
 .top_menu>ul>li:last-of-type {
     margin-right: 0;
-}
-
-.top_menu>ul>li:hover {
-    display: inline-block;
-    margin-right: 2vw;
 }
