@@ -1,4 +1,5 @@
 :root {
+    /* sample of use:   color: var(--primary-color);    */
     --primary-color: #07ACE6;
     --secondary-color: #13253B;
     --third-color: #A5A5A5;
@@ -8,12 +9,11 @@
     --eight-color: #08A6E4;
     --white-color: #FFF;
     --black-color: #000;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
-/* sample of use:   color: var(--primary-color);    */
-
 body {
-    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Raleway', sans-serif;  ->  secondary font*/
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -21,32 +21,41 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 1352px;
+    /* min-width: 1352px; -> zmienic ponizej*/
 }
 
 header {
     display: flex;
-    /* justify-content: center; */
     min-height: 10vh;
-    min-width: 100vw;
+    min-width: 100%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(255, 255, 255, .5);
     border-bottom: 0.1rem solid #A5A5A5;
     box-shadow: 0rem 0.001rem 0.6rem 0.2rem #A5A5A5;
 }
 
 #logo {
     justify-content: flex-start;
+    font-family: var(--secondary-font);
 }
 
 .main {
-    /* justify-content: center; */
-    min-width: 100vw;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center; */
+    min-width: 100%;
     min-height: 90vh;
     background-image: url("../img/background.png");
     background-position: bottom;
     background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20vh;
+    line-height: 4rem;
+
 }
 
 .top_menu>ul>li {
@@ -55,21 +64,38 @@ header {
     border-bottom: 0.1rem solid red;
 }
 
+.top_menu>ul>li:last-of-type {
+    margin-right: 0;
+}
+
 .top_menu>ul>li>a {
     /* display: inline-block; */
     color: var(--black-color);
     text-transform: uppercase;
     text-decoration: none;
-
 }
+
+h1 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.slider_button {
+    width: 27rem;
+    height: 4rem;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--eight-color);
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+}
+
 
 /* .top_menu>ul>li>a:hover {
     color: var(--black-color);
     text-transform: uppercase;
     text-decoration: none;
 } */
-
-
-.top_menu>ul>li:last-of-type {
-    margin-right: 0;
-}
