@@ -2,7 +2,11 @@
 2) add nessesery tags (title, description)
 3) change all colors to variable
 4) fix font weight: lift for #logo
-
-
+5) try to more specific ul & li items 
+6) make radius for all sections ?
+7) resize "most popular sales" section
 (...)
+x-4) uporzadkuj sensownie kod
+x-3) nofollow na zmiennych .css dla tyych których trzeba
+x-2) Readme na git popraw z info ze online wersja dostepna na parkitny.eu
 x-1) upload wszystko na parkitny.eu/projekty/bestshop/ 
