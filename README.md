@@ -1,11 +1,19 @@
-<img alt="Logo" src="http://coderslab.pl/img/coderslab-logo.png" width="400">
 
-# Zaawansowany HTML i CSS - Warsztat
+## Project info
+Coderslab (polish bootcamp) bestshop project.</br>
+Live preview: https://www.parkitny.eu/projects/BestShop/
 
-Opis całego warsztatu znajduje się w prezentacji **Moduł 1** / **HTML_i_CSS_Warsztat**.
+## Author contact info
+E-mail: krzysztof@parkitny.eu</br>
+LinkedIn: https://parkitny.eu/ref/li</br>
 
+## Technologies/tools
+* JavaScript
+* HTML5
+* SCSS/CSS3
 
-## Źródła
-- Wersja projektu **on-line** (bez instalacji Adobe XD): https://xd.adobe.com/spec/3e12f9b5-11e7-4d9a-6a6b-e78b20d2a5a6-4823/grid
-- `Workshop-Project.xd` - plik z projektem w formacie Adobe XD
-- `assets` - wyciągnięte wszystkie ikony i obrazki z projektu
+## How to run the project
+Open 
+``` index.html ```
+
+// Last README.md update: 27.12.2020r.
